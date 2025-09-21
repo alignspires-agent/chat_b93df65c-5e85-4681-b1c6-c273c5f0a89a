@@ -1,0 +1,220 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 10002.72 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 11:11:33,129 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 11:11:33,129 - INFO - Starting MoSEs framework training
+
+2025-09-21 11:11:33,129 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:33,132 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:33,138 - INFO - Creating 5 prototypes from semantic embeddings
+
+2025-09-21 11:11:33,140 - INFO - Preparing conditional features
+
+2025-09-21 11:11:34,036 - INFO - Training Conditional Threshold Estimator
+
+2025-09-21 11:11:34,268 - INFO - CTE model training completed successfully
+
+2025-09-21 11:11:34,268 - INFO - MoSEs framework training completed successfully
+
+2025-09-21 11:11:34,268 - INFO - Making predictions with MoSEs framework
+
+2025-09-21 11:11:34,268 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:34,268 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:34,268 - INFO - Preparing conditional features
+
+2025-09-21 11:11:34,269 - INFO - Prediction completed successfully
+
+2025-09-21 11:11:34,272 - INFO - ==================================================
+
+2025-09-21 11:11:34,272 - INFO - MoSEs FRAMEWORK DEMONSTRATION RESULTS
+
+2025-09-21 11:11:34,272 - INFO - ==================================================
+
+2025-09-21 11:11:34,272 - INFO - Test Accuracy: 0.5000
+
+2025-09-21 11:11:34,272 - INFO - Test F1 Score: 0.0000
+
+2025-09-21 11:11:34,272 - INFO - 
+
+2025-09-21 11:11:34,272 - INFO - Detailed Predictions:
+
+2025-09-21 11:11:34,272 - INFO - Text 1:
+
+2025-09-21 11:11:34,272 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5863)
+
+2025-09-21 11:11:34,272 - INFO -   Sample: Historical analysis provides valuable insights int...
+
+2025-09-21 11:11:34,272 - INFO - 
+
+2025-09-21 11:11:34,272 - INFO - Text 2:
+
+2025-09-21 11:11:34,272 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5010)
+
+2025-09-21 11:11:34,272 - INFO -   Sample: Creative writing allows authors to express unique ...
+
+2025-09-21 11:11:34,272 - INFO - 
+
+2025-09-21 11:11:34,272 - INFO - Text 3:
+
+2025-09-21 11:11:34,272 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.6143)
+
+2025-09-21 11:11:34,272 - INFO -   Sample: Neural networks can be trained on diverse datasets...
+
+2025-09-21 11:11:34,272 - INFO - 
+
+2025-09-21 11:11:34,272 - INFO - Text 4:
+
+2025-09-21 11:11:34,272 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.8625)
+
+2025-09-21 11:11:34,272 - INFO -   Sample: Transformer architectures have revolutionized natu...
+
+2025-09-21 11:11:34,272 - INFO - 
+
+2025-09-21 11:11:34,272 - INFO - MoSEs framework demonstration completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 11:11:33,129 - INFO - Starting MoSEs framework demonstration\n2025-09-21 11:11:33,129 - INFO - Starting MoSEs framework training\n2025-09-21 11:11:33,129 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:33,132 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:33,138 - INFO - Creating 5 prototypes from semantic embeddings\n2025-09-21 11:11:33,140 - INFO - Preparing conditional features\n2025-09-21 11:11:34,036 - INFO - Training Conditional Threshold Estimator\n2025-09-21 11:11:34,268 - INFO - CTE model training completed successfully\n2025-09-21 11:11:34,268 - INFO - MoSEs framework training completed successfully\n2025-09-21 11:11:34,268 - INFO - Making predictions with MoSEs framework\n2025-09-21 11:11:34,268 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:34,268 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:34,268 - INFO - Preparing conditional features\n2025-09-21 11:11:34,269 - INFO - Prediction completed successfully\n2025-09-21 11:11:34,272 - INFO - ==================================================\n2025-09-21 11:11:34,272 - INFO - MoSEs FRAMEWORK DEMONSTRATION RESULTS\n2025-09-21 11:11:34,272 - INFO - ==================================================\n2025-09-21 11:11:34,272 - INFO - Test Accuracy: 0.5000\n2025-09-21 11:11:34,272 - INFO - Test F1 Score: 0.0000\n2025-09-21 11:11:34,272 - INFO - \n2025-09-21 11:11:34,272 - INFO - Detailed Predictions:\n2025-09-21 11:11:34,272 - INFO - Text 1:\n2025-09-21 11:11:34,272 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5863)\n2025-09-21 11:11:34,272 - INFO -   Sample: Historical analysis provides valuable insights int...\n2025-09-21 11:11:34,272 - INFO - \n2025-09-21 11:11:34,272 - INFO - Text 2:\n2025-09-21 11:11:34,272 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5010)\n2025-09-21 11:11:34,272 - INFO -   Sample: Creative writing allows authors to express unique ...\n2025-09-21 11:11:34,272 - INFO - \n2025-09-21 11:11:34,272 - INFO - Text 3:\n2025-09-21 11:11:34,272 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.6143)\n2025-09-21 11:11:34,272 - INFO -   Sample: Neural networks can be trained on diverse datasets...\n2025-09-21 11:11:34,272 - INFO - \n2025-09-21 11:11:34,272 - INFO - Text 4:\n2025-09-21 11:11:34,272 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.8625)\n2025-09-21 11:11:34,272 - INFO -   Sample: Transformer architectures have revolutionized natu...\n2025-09-21 11:11:34,272 - INFO - \n2025-09-21 11:11:34,272 - INFO - MoSEs framework demonstration completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 11681.48 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 0453dae1-f5f4-4486-9320-0b01f0edf84a Version: $LATEST
+
+RequestId: 0453dae1-f5f4-4486-9320-0b01f0edf84a Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 0453dae1-f5f4-4486-9320-0b01f0edf84a
+
+REPORT RequestId: 0453dae1-f5f4-4486-9320-0b01f0edf84a	Duration: 11683.42 ms	Billed Duration: 11684 ms	Memory Size: 3008 MB	Max Memory Used: 134 MB	
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 11:11:35,438 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 11:11:35,439 - INFO - Starting MoSEs framework training
+
+2025-09-21 11:11:35,439 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:35,442 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:35,447 - INFO - Creating 5 prototypes from semantic embeddings
+
+2025-09-21 11:11:35,447 - INFO - Preparing conditional features
+
+2025-09-21 11:11:35,476 - INFO - Training Conditional Threshold Estimator
+
+2025-09-21 11:11:35,486 - INFO - CTE model training completed successfully
+
+2025-09-21 11:11:35,487 - INFO - MoSEs framework training completed successfully
+
+2025-09-21 11:11:35,487 - INFO - Making predictions with MoSEs framework
+
+2025-09-21 11:11:35,487 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:35,487 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:35,487 - INFO - Preparing conditional features
+
+2025-09-21 11:11:35,488 - INFO - Prediction completed successfully
+
+2025-09-21 11:11:35,491 - INFO - ==================================================
+
+2025-09-21 11:11:35,491 - INFO - MoSEs FRAMEWORK DEMONSTRATION RESULTS
+
+2025-09-21 11:11:35,491 - INFO - ==================================================
+
+2025-09-21 11:11:35,491 - INFO - Test Accuracy: 0.5000
+
+2025-09-21 11:11:35,491 - INFO - Test F1 Score: 0.0000
+
+2025-09-21 11:11:35,491 - INFO - 
+
+2025-09-21 11:11:35,491 - INFO - Detailed Predictions:
+
+2025-09-21 11:11:35,491 - INFO - Text 1:
+
+2025-09-21 11:11:35,491 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5863)
+
+2025-09-21 11:11:35,491 - INFO -   Sample: Historical analysis provides valuable insights int...
+
+2025-09-21 11:11:35,491 - INFO - 
+
+2025-09-21 11:11:35,491 - INFO - Text 2:
+
+2025-09-21 11:11:35,491 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5010)
+
+2025-09-21 11:11:35,491 - INFO -   Sample: Creative writing allows authors to express unique ...
+
+2025-09-21 11:11:35,491 - INFO - 
+
+2025-09-21 11:11:35,492 - INFO - Text 3:
+
+2025-09-21 11:11:35,492 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.6143)
+
+2025-09-21 11:11:35,492 - INFO -   Sample: Neural networks can be trained on diverse datasets...
+
+2025-09-21 11:11:35,492 - INFO - 
+
+2025-09-21 11:11:35,492 - INFO - Text 4:
+
+2025-09-21 11:11:35,492 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.8625)
+
+2025-09-21 11:11:35,492 - INFO -   Sample: Transformer architectures have revolutionized natu...
+
+2025-09-21 11:11:35,492 - INFO - 
+
+2025-09-21 11:11:35,492 - INFO - MoSEs framework demonstration completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 11:11:35,438 - INFO - Starting MoSEs framework demonstration\n2025-09-21 11:11:35,439 - INFO - Starting MoSEs framework training\n2025-09-21 11:11:35,439 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:35,442 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:35,447 - INFO - Creating 5 prototypes from semantic embeddings\n2025-09-21 11:11:35,447 - INFO - Preparing conditional features\n2025-09-21 11:11:35,476 - INFO - Training Conditional Threshold Estimator\n2025-09-21 11:11:35,486 - INFO - CTE model training completed successfully\n2025-09-21 11:11:35,487 - INFO - MoSEs framework training completed successfully\n2025-09-21 11:11:35,487 - INFO - Making predictions with MoSEs framework\n2025-09-21 11:11:35,487 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:35,487 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:35,487 - INFO - Preparing conditional features\n2025-09-21 11:11:35,488 - INFO - Prediction completed successfully\n2025-09-21 11:11:35,491 - INFO - ==================================================\n2025-09-21 11:11:35,491 - INFO - MoSEs FRAMEWORK DEMONSTRATION RESULTS\n2025-09-21 11:11:35,491 - INFO - ==================================================\n2025-09-21 11:11:35,491 - INFO - Test Accuracy: 0.5000\n2025-09-21 11:11:35,491 - INFO - Test F1 Score: 0.0000\n2025-09-21 11:11:35,491 - INFO - \n2025-09-21 11:11:35,491 - INFO - Detailed Predictions:\n2025-09-21 11:11:35,491 - INFO - Text 1:\n2025-09-21 11:11:35,491 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5863)\n2025-09-21 11:11:35,491 - INFO -   Sample: Historical analysis provides valuable insights int...\n2025-09-21 11:11:35,491 - INFO - \n2025-09-21 11:11:35,491 - INFO - Text 2:\n2025-09-21 11:11:35,491 - INFO -   True: Human, Predicted: AI-generated (Confidence: 0.5010)\n2025-09-21 11:11:35,491 - INFO -   Sample: Creative writing allows authors to express unique ...\n2025-09-21 11:11:35,491 - INFO - \n2025-09-21 11:11:35,492 - INFO - Text 3:\n2025-09-21 11:11:35,492 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.6143)\n2025-09-21 11:11:35,492 - INFO -   Sample: Neural networks can be trained on diverse datasets...\n2025-09-21 11:11:35,492 - INFO - \n2025-09-21 11:11:35,492 - INFO - Text 4:\n2025-09-21 11:11:35,492 - INFO -   True: AI-generated, Predicted: AI-generated (Confidence: 0.8625)\n2025-09-21 11:11:35,492 - INFO -   Sample: Transformer architectures have revolutionized natu...\n2025-09-21 11:11:35,492 - INFO - \n2025-09-21 11:11:35,492 - INFO - MoSEs framework demonstration completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1187.78 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
